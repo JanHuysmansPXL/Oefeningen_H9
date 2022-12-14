@@ -5,16 +5,16 @@
     font-family: 'Calibri', sans-serif;
 }
 
-.box {
+[class*="col"] {
    /* background-color: #A2EEFF; */
     border: 1px solid #000;
     border-radius: .2rem;
 }
 
-.row:nth-of-type(odd) {
+[class*='row']:nth-of-type(odd) {
     background-color: #E8FBFF;
 }
 
-.row:nth-of-type(even) {
+[class*='row']:nth-of-type(even) {
     background-color: #FDE8FF;
 }

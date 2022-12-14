@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
+}
+
+/* #F6F3EC, #FFFFFF, #E7E0D2, #E9EEE2 en #000000 */
+.container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("assets/coffee1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.coffee {
+    background-color: #F6F3EC;
+}
+
+.coffee__headline h1 {
+    font-weight: 500;
+}
+
+.coffee__headline p {
+    font-weight: 500;
+    font-style: italic;
+}
+
+details hr {
+    border-bottom: 1px dashed #000000;
+}
+
+[class*='lijst'] summary {
+    font-weight: bold;
+}
+
+[class*='lijst'] p {
+    margin-top: .5rem;
+}
+
+.other-drinks {
+    background-color: #E9EEE2;
+}
+
+.other-drinks__headline h1 {
+    font-weight: 500;
+}
+
+.other-drinks__headline p {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.images-footer img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #E9EEE2;
+}
+
+.footer a {
+    color: #000000;
+}
+
+[class*='footer'] p {
+    padding-top: .2rem;
+}
