@@ -1,23 +1,14 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-main p {
     font-family: 'Calibri', sans-serif;
-    color: #000000;
 }
 
 .box {
    /* background-color: #A2EEFF; */
     border: 1px solid #000;
     border-radius: .2rem;
-}
-
-.row-height {
-    height: auto;
 }
 
 .row:nth-of-type(odd) {
