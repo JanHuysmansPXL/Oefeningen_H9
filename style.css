@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container is hetzelfde als container-sm */
+
+
+.bg-blue {
+    background-color: #A2EEFF;
+}
+
+.bg-red {
+    background-color: #fdc1c1;
+}
+
+.row-height {
+    height: 20rem;
+}
+
+img {
+    width: 100%;
+}

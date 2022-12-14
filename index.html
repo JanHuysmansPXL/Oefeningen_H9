@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Grid - H9</title>
+    <meta name ='viewport' content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- EERST bootstrap, DAN PAS style.css -->
+    <!-- Kimberly verkiest te werken zonder de reboot, wegens creativiteit -->
+    <!-- sm, lg, xl, maakt stapelende objecten bij breakpoints
+            Uitlijnen met justify, altijd op de ROW ! -->
+</head>
+<body>
+<main class="container-fluid px-0">
+    <div class="row gx-0">
+        <div class="col">
+            <img src="assets/manyminions.jpg" alt="Minions 1">
+        </div>
+        <div class="col">
+            <img src="assets/minionsreadytoserve.jpg" alt="Minions 1">
+        </div>
+        <div class="col">
+            <img src="assets/minionsemerge.jpg" alt="Minions 3">
+        </div>
+    </div>
+
+<!-- HTML ACCORDEON OPZOEKEN VOOR OEFENING 3 menu -->
+
+
+
+
+</main>
+</body>
+</html>
+
+<!--
+
+-- ORDER --
+
+<div class="row row-height">
+    <div class="col-6 col-md-4 bg-red order-md-1">
+        <p>Dit is een paragraaf in kolom 1</p>
+    </div>
+    <div class="col-6 col-md-4 bg-red order-md-2">
+        <p>Dit is een paragraaf in kolom 2</p>
+    </div>
+</div>
+
+-- OFFSET --
+
+<div class="row row-height">
+   <div class="col-4 bg-red offset-1">
+        <p>Dit is een paragraaf in kolom 1</p>
+    </div>
+    <div class="col-4 bg-red offset-3">
+        <p>Dit is een paragraaf in kolom 2</p>
+    </div>
+</div>
+
+-- NESTING --
+
+ <div class="row row-height">
+            <div class="col-6 bg-red">
+                <p>Dit is een paragraaf in kolom 1</p>
+            </div>
+            <div class="col-6 bg-red">
+                <div class="col">
+                    <p>Dit is rij 1 in de kolom</p>
+                </div>
+                <div class="col">
+                    <p>Dit is rij 1 in de kolom</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>Dit is rij 2 in de kolom</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+__ MARGIN EN PADDING --
+
+<div class="row row-height">
+            <div class="col-6 bg-red p-3">
+                <p >Dit is een paragraaf in kolom 1</p>
+            </div>
+            <div class="col-6 bg-red">
+                <div class="col p-2">
+                    <p>Dit is rij 1 in de kolom</p>
+                </div>
+                <div class="col p-2">
+                    <p>Dit is rij 1 in de kolom</p>
+                </div>
+                <div class="row bg-blue">
+                    <div class="col">
+                        <p>Dit is rij 2 in de kolom</p>
+                    </div>
+                    <div class="col">
+                        <p>Dit is rij 2 in de kolom</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+-->
